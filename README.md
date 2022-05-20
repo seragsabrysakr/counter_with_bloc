@@ -1,6 +1,7 @@
 # counter_with_bloc
 
-A new Flutter project.
+in my way to learn bloc
+
 
 ## Getting Started
 
