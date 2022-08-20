@@ -4,9 +4,9 @@ scripts:
 workflows:
   android:
     name: build, test & publish Android version
-    scripts:
-      - ...
+    scripts: flutter build android 
+   
   ios:
     name: build, test & publish iOS version
-    scripts:
-      - ...
+    scripts: flutter build ios 
+    
