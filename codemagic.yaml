@@ -1,12 +1,5 @@
 scripts:
   - name: Build for iOS         # Name of the section
     script: flutter build ios   # The script(s) to be run in that section
-workflows:
-  android:
-    name: build, test & publish Android version
-    scripts: flutter build android 
-   
-  ios:
-    name: build, test & publish iOS version
-    scripts: flutter build ios 
+
     
